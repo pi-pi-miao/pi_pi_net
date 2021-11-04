@@ -90,3 +90,7 @@ func (c *Client) WriteString(data string) (n int, err error) {
 	result = append(result, StringToByte(data)...)
 	return c.Conn.Write(result)
 }
+
+func  (c *Client)Close()error{
+	return c.Conn.Close()
+}

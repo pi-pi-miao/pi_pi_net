@@ -143,14 +143,3 @@ func ByteToString(bytes []byte) string {
 	return *(*string)(unsafe.Pointer(&bytes))
 }
 
-//// string转ytes
-//func Str2byte(s string) (b []byte) {
-//	*(*string)(unsafe.Pointer(&b)) = s	// 把s的地址付给b
-//	*(*int)(unsafe.Pointer(uintptr(unsafe.Pointer(&b)) + 2*unsafe.Sizeof(&b))) = len(s)
-//	return
-//}
-//
-//// []byte转string
-//func Byte2str(b []byte) string {
-//	return *(*string)(unsafe.Pointer(&b))
-//}
