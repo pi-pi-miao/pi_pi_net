@@ -28,7 +28,7 @@ func readBlock(ctx *pi_pi_net.Context){
     }
 }
 
-func runExample(){
+func main(){
     ctx := pi_pi_net.NewContext()
     fmt.Println("run")
     go readBlock(ctx)
@@ -47,7 +47,7 @@ func runExample(){
 2 异步读取  :  go read(ctx)
 3 获取连接然后运行: ctx.Accept()
 
-func listenExample(){
+func main(){
 	ctx,err := pi_pi_net.NewContext().Listen("tcp","127.0.0.1:10000")
 	if err != nil {
 		fmt.Println("[listen err]",err)

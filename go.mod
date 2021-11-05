@@ -1,4 +1,4 @@
-module pi_pi_net
+module github.com/pi-pi-miao/pi_pi_net
 
 go 1.16
 
