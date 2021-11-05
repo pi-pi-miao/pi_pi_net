@@ -6,6 +6,9 @@ pi-pi-net 是一个在linux环境下封装epoll的网络库,可以基于此库�
 ```
 
 
+## [详细文档点这里](https://pkg.go.dev/github.com/pi-pi-miao/pi_pi_net)
+## [Develop detailed documentation](https://pkg.go.dev/github.com/pi-pi-miao/pi_pi_net)
+
 
 ## 服务端使用
 
