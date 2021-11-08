@@ -2,7 +2,7 @@
 # pi-pi-net
 
 ```azure
-pi-pi-net 是一个在linux环境下封装epoll的网络库,可以基于此库非常方便的实现Reactor网络模型,或者http,websocket等网络框架的基础框架
+pi-pi-net 是一个在linux环境下封装epoll的网络库,可以基于此库非常方便的实现Reactor网络模型,或者web，rpc，websocket等网络框架的基础框架
 ```
 
 
