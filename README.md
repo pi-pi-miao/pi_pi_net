@@ -1,5 +1,5 @@
 
-<h1 align="center">pi-pi-ne 👋</h1>
+<h1 align="center">pi-pi-net 👋</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/linux-epoll-yellowgreen" />
